@@ -10,7 +10,7 @@ Experience the power of AI Agents in your terminal with one click.
 
 ### **Get it from the Marketplace**
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?label=VS%20Code%20Marketplace&style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
-[![Open VSX](https://img.shields.io/badge/Open%20VSX-Coming%20Soon-orange?style=for-the-badge&logo=open-vsx)](https://open-vsx.org/)
+[![Open VSX](https://img.shields.io/open-vsx/v/likhith-adithya/ai-cli-pro?label=Open%20VSX&style=for-the-badge&logo=open-vsx)](https://open-vsx.org/extension/likhith-adithya/ai-cli-pro)
 
 ### **Quick Installation**
 
@@ -18,9 +18,7 @@ Experience the power of AI Agents in your terminal with one click.
     Open the **Extensions** view (`Ctrl+Shift+X`), search for `AI CLI ⚡` or `likhith-adithya.ai-cli-pro`, and click **Install**.
 
 2.  **VSCodium Users**:
-    Since AI-CLI-HUB is currently on the MS Marketplace, you can:
-    - Download the `.vsix` file from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) and install it manually via **"Install from VSIX..."** in the Extensions menu.
-    - Or, configure VSCodium to use the MS Marketplace (see [VSCodium docs](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace)).
+    Search for `AI CLI ⚡` or `likhith-adithya.ai-cli-pro` in the **Extensions** view. It is available via the **Open VSX Registry**.
 
 3.  **Via Command Line**:
     ```bash
