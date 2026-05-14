@@ -1,6 +1,19 @@
 # AI-CLI-HUB Public Issue Tracker
 
+[![GitHub stars](https://img.shields.io/github/stars/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-HUB-Public/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-HUB-Public/network/members)
+[![License](https://img.shields.io/github/license/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](LICENSE)
+
 > A community-driven issue tracker and feature request board for [AI-CLI-HUB](https://github.com/likhith-adithya/AI-CLI-HUB) - Your AI Agents: One click and one command away.
+
+---
+
+## 📢 Share this Project
+
+Help us grow the community by sharing AI-CLI-HUB!
+
+[![Share on X](https://img.shields.io/badge/Share%20on%20X-000000?style=for-the-badge&logo=x)](https://twitter.com/intent/tweet?text=Check%20out%20AI-CLI-HUB%20-%20All%20your%20AI%20Agents%20in%20one%20command!%20%23VSCode%20%23AI%20%23CLI%20https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
+[![Share on LinkedIn](https://img.shields.io/badge/Share%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
 
 ---
 
