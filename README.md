@@ -44,6 +44,18 @@ AI-CLI-HUB is designed to work seamlessly across different environments.
 
 ---
 
+## 💖 Support & Sponsorship
+
+If you find **AI-CLI-HUB** useful and would like to support its development, please consider:
+
+- ⭐ **Starring** the repository on GitHub
+- 💬 **Sharing** it with your fellow developers
+- 💖 **Sponsoring** the project via [GitHub Sponsors](https://github.com/sponsors/likhith-adithya)
+
+Your support helps me maintain the extension and keep adding new features!
+
+---
+
 ## 📋 About This Repository
 
 
