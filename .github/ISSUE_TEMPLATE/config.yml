@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: VS Code Extension Marketplace
+    url: https://marketplace.visualstudio.com/
+    about: View the extension in the VS Code marketplace
+  - name: GitHub Discussions
+    url: ../../discussions
+    about: Ask questions and have general discussions
+  - name: Main Repository
+    url: https://github.com/likhith-adithya/AI-CLI-HUB
+    about: View the main project repository
