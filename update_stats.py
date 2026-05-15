@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 MS_MARKETPLACE_ID = "likhith-adithya.ai-cli-pro"
-OPEN_VSX_ID = "likhithadithya/ai-cli-pro" # Note: Open VSX uses namespace/name format
+OPEN_VSX_ID = "likhith-adithya/ai-cli-pro" # Corrected namespace
 STATS_FILE = "stats.json"
 SVG_FILE = "downloads_graph.svg"
 MAX_POINTS = 30 
@@ -26,7 +26,6 @@ def get_ms_marketplace_downloads():
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode('utf-8'))
             stats = data['results'][0]['extensions'][0]['statistics']
-            # We want 'install' for MS Marketplace
             installs = next(s['value'] for s in stats if s['statisticName'] == 'install')
             return int(installs)
     except Exception as e:
@@ -40,7 +39,7 @@ def get_open_vsx_downloads():
             data = json.loads(response.read().decode('utf-8'))
             return int(data.get('downloadCount', 0))
     except Exception as e:
-        # Silently return 0 if not found on Open VSX yet
+        print(f"Error fetching Open VSX stats: {e}")
         return 0
 
 def generate_svg(history):
@@ -88,6 +87,10 @@ def generate_svg(history):
 ms_count = get_ms_marketplace_downloads()
 ovsx_count = get_open_vsx_downloads()
 total_count = ms_count + ovsx_count
+
+print(f"MS Marketplace: {ms_count}")
+print(f"Open VSX: {ovsx_count}")
+print(f"Total: {total_count}")
 
 today = datetime.now().strftime("%Y-%m-%d")
 

@@ -8,6 +8,6 @@
     </defs>
     <polyline points="20,50.0 380,50.0" fill="none" stroke="url(#grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
     <circle cx="380" cy="50.0" r="4" fill="#00f2fe" />
-    <text x="380" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4facfe" text-anchor="end">4 total installs</text>
+    <text x="380" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4facfe" text-anchor="end">888 total installs</text>
     <text x="20" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#888" text-anchor="start">Global Adoption Trend</text>
     </svg>
