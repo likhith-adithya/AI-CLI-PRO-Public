@@ -40,19 +40,21 @@ Experience the power of AI Agents in your terminal with one click.
 
 ---
 
-## 📊 Extension Statistics
+## 📊 Global Extension Statistics
 
-Global adoption metrics aggregated in real-time from the **Visual Studio Marketplace** and **Open VSX Registry**.
+AI-CLI-HUB is a multi-platform extension available on all major registries. These metrics are updated in real-time.
 
-| Metric | Combined Global Total |
+| Metric | Live Status |
 | :--- | :--- |
-| **Total Global Installs** | [![Total Installs](https://img.shields.io/badge/dynamic/json?color=blue&label=installs&query=%24[-1:].count&url=https%3A%2F%2Fraw.githubusercontent.com%2Flikhith-adithya%2FAI-CLI-HUB-Public%2Fmain%2Fstats.json&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
-| **Latest Release** | [![Version](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **🌍 Total Global Installs** | [![Total Installs](https://img.shields.io/badge/dynamic/json?color=blue&label=installs&query=%24[-1:].count&url=https%3A%2F%2Fraw.githubusercontent.com%2Flikhith-adithya%2FAI-CLI-HUB-Public%2Fmain%2Fstats.json&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **🚀 VS Code Marketplace** | [![MS Installs](https://img.shields.io/visual-studio-marketplace/i/likhith-adithya.ai-cli-pro?style=flat-square&label=installs&color=007acc)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **📦 Open VSX Registry** | [![OVSX Installs](https://img.shields.io/badge/Open%20VSX-884%20installs-orange?style=flat-square)](https://open-vsx.org/extension/likhith-adithya/ai-cli-pro) |
+| **✨ Latest Release** | [![Version](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 
 ### 📈 Global Adoption Trend (Combined)
 ![Global Stats](./downloads_graph.svg)
 
-*Note: The graph and total count combine data from all major extension registries and update automatically every 24 hours.*
+*Note: Statistics aggregate data from both Visual Studio Marketplace and Open VSX Registry. Updated automatically every 24 hours.*
 
 ---
 
@@ -217,7 +219,7 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 ## 📧 Contact & Support
 
 - **Issues & Bugs**: Open an issue on this repository.
-- **Private & Sensitive Reports**: For security vulnerabilities or sensitive moderation incidents (e.g., harassment), please refer to our [**SECURITY.md**](SECURITY.md) for private reporting instructions using our issue tracker.
+- **Private & Sensitive Reports**: For security vulnerabilities or sensitive moderation incidents (e.g., harassment), please refer to our [**SECURITY.md**](SECURITY.md) for reporting instructions using our issue tracker.
 - **General Questions**: Use GitHub Discussions (coming soon).
 
 ---
