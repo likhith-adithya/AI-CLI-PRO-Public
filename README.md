@@ -50,10 +50,7 @@ Stay up to date with the growth and community adoption of AI-CLI-HUB.
 | **Average Rating** | [![Rating](https://img.shields.io/visual-studio-marketplace/r/likhith-adithya.ai-cli-pro?style=flat-square&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 | **Latest Version** | [![Version](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 
-### 📈 Downloads Over Time
-![Downloads Graph](https://vsce-stats.vercel.app/api/sparkline?id=likhith-adithya.ai-cli-pro)
-
-*Note: Statistics are fetched in real-time from the Visual Studio Marketplace.*
+*Note: Statistics are fetched in real-time from the Visual Studio Marketplace. Values will update automatically as the community grows!*
 
 ---
 
@@ -218,7 +215,7 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 ## 📧 Contact & Support
 
 - **Issues & Bugs**: Open an issue on this repository.
-- **Private & Sensitive Reports**: For security vulnerabilities or sensitive moderation incidents (e.g., harassment), please refer to our [**SECURITY.md**](SECURITY.md) for private reporting instructions.
+- **Private & Sensitive Reports**: For security vulnerabilities or sensitive moderation incidents (e.g., harassment), please refer to our [**SECURITY.md**](SECURITY.md) for reporting instructions using our issue tracker.
 - **General Questions**: Use GitHub Discussions (coming soon).
 
 ---
