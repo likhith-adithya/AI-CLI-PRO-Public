@@ -35,7 +35,7 @@ Project maintainers are responsible for clarifying the standards of acceptable b
 3.  **Finality of Decisions:** Enforcement decisions are made at the sole discretion of the maintainers and are final, subject only to the internal appeals process defined in the [Moderation Policy](MODERATION_POLICY.md).
 
 ## Reporting
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by following the instructions in our [**SECURITY.md**](SECURITY.md). All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by following the instructions in our [**SECURITY.md**](SECURITY.md). All reports will be reviewed and investigated by the project team.
 
 ---
 
