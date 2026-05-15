@@ -42,19 +42,18 @@ Experience the power of AI Agents in your terminal with one click.
 
 ## 📊 Extension Statistics
 
-Stay up to date with the growth and community adoption of AI-CLI-HUB. These stats are fetched in real-time from the Visual Studio Marketplace.
+Live adoption metrics tracked in real-time from the Visual Studio Marketplace.
 
 | Metric | Live Badge |
 | :--- | :--- |
 | **Total Downloads** | [![Downloads](https://img.shields.io/visual-studio-marketplace/d/likhith-adithya.ai-cli-pro?style=flat-square&color=blue)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 | **Active Installs** | [![Installs](https://img.shields.io/visual-studio-marketplace/i/likhith-adithya.ai-cli-pro?style=flat-square&color=blueviolet)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
-| **Weekly Trending** | [![Trending](https://img.shields.io/visual-studio-marketplace/trending/i/likhith-adithya.ai-cli-pro?style=flat-square&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
-| **Average Rating** | [![Rating](https://img.shields.io/visual-studio-marketplace/r/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **Latest Version** | [![Version](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 
-### 📈 Growth & Trends
-To view our real-time growth graphs, historical download data, and detailed analytics, visit our live dashboard:
+### 📈 Download History (30 Days)
+![Extension Stats](./downloads_graph.svg)
 
-👉 **[View AI-CLI-HUB Live Statistics Dashboard](https://vsce.github.io/extension/likhith-adithya.ai-cli-pro)**
+*Note: The graph updates automatically every 24 hours to reflect community growth.*
 
 ---
 
