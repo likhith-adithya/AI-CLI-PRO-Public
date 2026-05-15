@@ -29,7 +29,6 @@ def get_ms_marketplace_downloads():
             installs = next(s['value'] for s in stats if s['statisticName'] == 'install')
             return int(installs)
     except Exception as e:
-        print(f"Error fetching MS Marketplace stats: {e}")
         return 0
 
 def get_open_vsx_downloads():
@@ -48,14 +47,13 @@ def generate_svg(history):
     if not values: return
     
     min_val, max_val = min(values), max(values)
-    # Ensure graph has room at top/bottom
-    graph_min = min_val * 0.8
-    graph_max = max_val * 1.2
+    graph_min = min_val * 0.9
+    graph_max = max_val * 1.1
     range_val = max(graph_max - graph_min, 1)
     
-    width, height = 600, 200
-    padding_x = 50
-    padding_y = 40
+    width, height = 600, 150
+    padding_x = 40
+    padding_y = 30
     
     points = []
     for i, val in enumerate(values):
@@ -64,53 +62,32 @@ def generate_svg(history):
         points.append((x, y))
     
     polyline_points = " ".join([f"{x},{y}" for x, y in points])
-    
-    # Area path (closes the loop at the bottom)
     area_points = f"{padding_x},{height-padding_y} " + polyline_points + f" {width-padding_x},{height-padding_y}"
     
+    # Simplified SVG (removed complex filters for GitHub compatibility)
     svg = f'''<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style="stop-color:#4facfe;stop-opacity:0.3" />
+            <stop offset="0%" style="stop-color:#4facfe;stop-opacity:0.4" />
             <stop offset="100%" style="stop-color:#4facfe;stop-opacity:0" />
         </linearGradient>
-        <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
-        </linearGradient>
-        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
-            <feOffset dx="0" dy="2" result="offsetblur" />
-            <feComponentTransfer>
-                <feFuncA type="linear" slope="0.5" />
-            </feComponentTransfer>
-            <feMerge>
-                <feMergeNode />
-                <feMergeNode in="SourceGraphic" />
-            </feMerge>
-        </filter>
     </defs>
     
-    <!-- Background -->
-    <rect width="100%" height="100%" fill="transparent"/>
-    
-    <!-- Grid Lines -->
-    <line x1="{padding_x}" y1="{height-padding_y}" x2="{width-padding_x}" y2="{height-padding_y}" stroke="#333" stroke-width="1" />
-    <line x1="{padding_x}" y1="{padding_y}" x2="{width-padding_x}" y2="{padding_y}" stroke="#222" stroke-width="1" stroke-dasharray="4" />
-    
-    <!-- Area Fill -->
+    <!-- Area -->
     <polygon points="{area_points}" fill="url(#areaGrad)" />
     
-    <!-- Line -->
-    <polyline points="{polyline_points}" fill="none" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)" />
+    <!-- X-Axis -->
+    <line x1="{padding_x}" y1="{height-padding_y}" x2="{width-padding_x}" y2="{height-padding_y}" stroke="#888" stroke-width="2" />
     
-    <!-- Data Points -->
-    <circle cx="{points[-1][0]}" cy="{points[-1][1]}" r="6" fill="#00f2fe" filter="url(#shadow)" />
+    <!-- Growth Line -->
+    <polyline points="{polyline_points}" fill="none" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- End Point -->
+    <circle cx="{points[-1][0]}" cy="{points[-1][1]}" r="6" fill="#fff" stroke="#00f2fe" stroke-width="3" />
     
     <!-- Labels -->
-    <text x="{width-padding_x}" y="{padding_y-10}" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#00f2fe" text-anchor="end">{values[-1]} Total Installs</text>
-    <text x="{padding_x}" y="{height-10}" font-family="Segoe UI, sans-serif" font-size="12" fill="#888" text-anchor="start">Growth History (Global)</text>
-    <text x="{width-padding_x}" y="{height-10}" font-family="Segoe UI, sans-serif" font-size="10" fill="#555" text-anchor="end">Real-time Tracker</text>
+    <text x="{width-padding_x}" y="{padding_y}" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#00f2fe" text-anchor="end">{values[-1]} Total Installs</text>
+    <text x="{padding_x}" y="{height-5}" font-family="Arial, sans-serif" font-size="12" fill="#888" text-anchor="start">Global Adoption History</text>
     </svg>'''
     
     with open(SVG_FILE, "w") as f:
@@ -129,7 +106,6 @@ if os.path.exists(STATS_FILE):
 else:
     history = []
 
-# Only update if today's count changed or it's a new day
 if history and history[-1]['date'] == today:
     history[-1]['count'] = total_count
 else:
