@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- CONFIGURATION ---
 MS_MARKETPLACE_ID = "likhith-adithya.ai-cli-pro"
-OPEN_VSX_ID = "likhith-adithya/ai-cli-pro" # Corrected namespace
+OPEN_VSX_ID = "likhith-adithya/ai-cli-pro"
 STATS_FILE = "stats.json"
 SVG_FILE = "downloads_graph.svg"
 MAX_POINTS = 30 
@@ -39,7 +39,6 @@ def get_open_vsx_downloads():
             data = json.loads(response.read().decode('utf-8'))
             return int(data.get('downloadCount', 0))
     except Exception as e:
-        print(f"Error fetching Open VSX stats: {e}")
         return 0
 
 def generate_svg(history):
@@ -49,35 +48,69 @@ def generate_svg(history):
     if not values: return
     
     min_val, max_val = min(values), max(values)
-    range_val = max(max_val - min_val, 1)
+    # Ensure graph has room at top/bottom
+    graph_min = min_val * 0.8
+    graph_max = max_val * 1.2
+    range_val = max(graph_max - graph_min, 1)
     
-    width, height = 400, 100
-    padding = 20
+    width, height = 600, 200
+    padding_x = 50
+    padding_y = 40
     
     points = []
-    if len(values) == 1:
-        points.append(f"{padding},{height/2}")
-        points.append(f"{width-padding},{height/2}")
-    else:
-        for i, val in enumerate(values):
-            x = padding + (i * (width - 2 * padding) / (len(values) - 1))
-            y = (height - padding) - ((val - min_val) / range_val * (height - 2 * padding))
-            points.append(f"{x},{y}")
+    for i, val in enumerate(values):
+        x = padding_x + (i * (width - 2 * padding_x) / (len(values) - 1 if len(values) > 1 else 1))
+        y = (height - padding_y) - ((val - graph_min) / range_val * (height - 2 * padding_y))
+        points.append((x, y))
     
-    polyline_points = " ".join(points)
+    polyline_points = " ".join([f"{x},{y}" for x, y in points])
+    
+    # Area path (closes the loop at the bottom)
+    area_points = f"{padding_x},{height-padding_y} " + polyline_points + f" {width-padding_x},{height-padding_y}"
     
     svg = f'''<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">
-    <rect width="100%" height="100%" fill="transparent"/>
     <defs>
-        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#4facfe;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#4facfe;stop-opacity:0" />
+        </linearGradient>
+        <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
             <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
         </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+            <feOffset dx="0" dy="2" result="offsetblur" />
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.5" />
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
     </defs>
-    <polyline points="{polyline_points}" fill="none" stroke="url(#grad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="{points[-1].split(',')[0]}" cy="{points[-1].split(',')[1]}" r="4" fill="#00f2fe" />
-    <text x="{width-padding}" y="{height-2}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#4facfe" text-anchor="end">{values[-1]} total installs</text>
-    <text x="{padding}" y="{height-2}" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" fill="#888" text-anchor="start">Global Adoption Trend</text>
+    
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="transparent"/>
+    
+    <!-- Grid Lines -->
+    <line x1="{padding_x}" y1="{height-padding_y}" x2="{width-padding_x}" y2="{height-padding_y}" stroke="#333" stroke-width="1" />
+    <line x1="{padding_x}" y1="{padding_y}" x2="{width-padding_x}" y2="{padding_y}" stroke="#222" stroke-width="1" stroke-dasharray="4" />
+    
+    <!-- Area Fill -->
+    <polygon points="{area_points}" fill="url(#areaGrad)" />
+    
+    <!-- Line -->
+    <polyline points="{polyline_points}" fill="none" stroke="url(#lineGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)" />
+    
+    <!-- Data Points -->
+    <circle cx="{points[-1][0]}" cy="{points[-1][1]}" r="6" fill="#00f2fe" filter="url(#shadow)" />
+    
+    <!-- Labels -->
+    <text x="{width-padding_x}" y="{padding_y-10}" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#00f2fe" text-anchor="end">{values[-1]} Total Installs</text>
+    <text x="{padding_x}" y="{height-10}" font-family="Segoe UI, sans-serif" font-size="12" fill="#888" text-anchor="start">Growth History (Global)</text>
+    <text x="{width-padding_x}" y="{height-10}" font-family="Segoe UI, sans-serif" font-size="10" fill="#555" text-anchor="end">Real-time Tracker</text>
     </svg>'''
     
     with open(SVG_FILE, "w") as f:
@@ -88,10 +121,6 @@ ms_count = get_ms_marketplace_downloads()
 ovsx_count = get_open_vsx_downloads()
 total_count = ms_count + ovsx_count
 
-print(f"MS Marketplace: {ms_count}")
-print(f"Open VSX: {ovsx_count}")
-print(f"Total: {total_count}")
-
 today = datetime.now().strftime("%Y-%m-%d")
 
 if os.path.exists(STATS_FILE):
@@ -100,6 +129,7 @@ if os.path.exists(STATS_FILE):
 else:
     history = []
 
+# Only update if today's count changed or it's a new day
 if history and history[-1]['date'] == today:
     history[-1]['count'] = total_count
 else:
