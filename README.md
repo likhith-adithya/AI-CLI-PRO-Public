@@ -224,9 +224,10 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 
 ---
 
-## 📄 License
+## ⚖️ Legal & Trademarks
+AI CLI Hub is an independent tool and is not affiliated with or endorsed by Google, Anthropic, GitHub, or any other third-party provider.
 
-This repository is part of the AI-CLI-HUB project and follows the Apache License 2.0.
+- [Privacy Policy](docs/legal/PRIVACY.md) • [Terms of Service](docs/legal/TERMS.md) • [License](LICENSE)
 
 ---
 
