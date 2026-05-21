@@ -64,14 +64,17 @@ AI-CLI-PRO is a multi-platform extension available on all major registries. Thes
 AI-CLI-PRO is designed to work seamlessly across different environments.
 
 ### **Supported IDEs**
-- 🟦 **Visual Studio Code** (v1.80.0 or higher)
-- 🚀 **Cursor**
-- 🌊 **Windsurf**
-- 🛡️ **VSCodium**
-- ☁️ **Google Project IDX**
-- 🍐 **PearAI**
-- 🐉 **Trae**
-- 🌌 **Antigravity** (Preview)
+
+| IDE | Experience |
+| :--- | :--- |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width="20" height="20"> **Visual Studio Code** | ✅ **The Industry Standard** (v1.80.0+) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Cursor_logo.svg" width="20" height="20"> **Cursor** | 🚀 **AI-Native Leader** |
+| <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/main/assets/windsurf-color.svg" width="20" height="20"> **Windsurf** | 🌊 **The "Flow" Challenger** |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/VSCodium_logo.svg" width="20" height="20"> **VSCodium** | 🛡️ **Privacy-First OSS** |
+| <img src="https://idx.dev/static/images/logo.svg" width="20" height="20"> **Google Project IDX** | ☁️ **Cloud-Native Platform** |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Google_Antigravity_Logo.svg" width="20" height="20"> **Antigravity** | 🌌 **Agent-First IDE** (Preview) |
+| <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/main/assets/trae-color.svg" width="20" height="20"> **Trae** | 🐉 **Precision AI Editor** |
+| <img src="https://raw.githubusercontent.com/trypear/pear-landing-page/main/public/logo.svg" width="20" height="20"> **PearAI** | 🍐 **Open-Source AI Editor** |
 
 ### **Supported Operating Systems**
 - 🍎 **macOS** (Intel & Apple Silicon)
