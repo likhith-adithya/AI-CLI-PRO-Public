@@ -28,10 +28,10 @@ Experience the power of AI Agents in your terminal with one click.
 ### **Quick Installation**
 
 1.  **Standard VS Code / Cursor**:
-    Open the **Extensions** view (`Ctrl+Shift+X`), search for `AI CLI ⚡` or `likhith-adithya.ai-cli-pro`, and click **Install**.
+    Open the **Extensions** view (`Ctrl+Shift+X`), search for `AI CLI PRO` or `likhith-adithya.ai-cli-pro`, and click **Install**.
 
 2.  **VSCodium Users**:
-    Search for `AI CLI ⚡` or `likhith-adithya.ai-cli-pro` in the **Extensions** view. It is available via the **Open VSX Registry**.
+    Search for `AI CLI PRO` or `likhith-adithya.ai-cli-pro` in the **Extensions** view. It is available via the **Open VSX Registry**.
 
 3.  **Via Command Line**:
     ```bash
