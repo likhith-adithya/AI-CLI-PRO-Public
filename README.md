@@ -66,7 +66,11 @@ AI-CLI-PRO is designed to work seamlessly across different environments.
 ### **Supported IDEs**
 - 🟦 **Visual Studio Code** (v1.80.0 or higher)
 - 🚀 **Cursor**
+- 🌊 **Windsurf**
 - 🛡️ **VSCodium**
+- ☁️ **Google Project IDX**
+- 🍐 **PearAI**
+- 🐉 **Trae**
 
 ### **Supported Operating Systems**
 - 🍎 **macOS** (Intel & Apple Silicon)
