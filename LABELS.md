@@ -1,6 +1,6 @@
 # GitHub Labels Reference
 
-This document outlines all labels used in the AI-CLI-HUB Public Issue Tracker for organizing and categorizing issues.
+This document outlines all labels used in the AI-CLI-PRO Public Issue Tracker for organizing and categorizing issues.
 
 ## 📑 Label Categories
 

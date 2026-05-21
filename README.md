@@ -1,18 +1,18 @@
-# AI-CLI-HUB Public Issue Tracker
+# AI-CLI-PRO Public Issue Tracker
 
-[![GitHub stars](https://img.shields.io/github/stars/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-HUB-Public/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/likhith-adithya/AI-CLI-HUB-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-HUB-Public/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/likhith-adithya/AI-CLI-PRO-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-PRO-Public/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/likhith-adithya/AI-CLI-PRO-Public?style=for-the-badge)](https://github.com/likhith-adithya/AI-CLI-PRO-Public/network/members)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](LICENSE)
 
-> A community-driven issue tracker and feature request board for [AI-CLI-HUB](https://github.com/likhith-adithya/AI-CLI-HUB) - Your AI Agents: One click and one command away.
+> A community-driven issue tracker and feature request board for [AI-CLI-PRO](https://github.com/likhith-adithya/AI-CLI-PRO) - Your AI Agents: One click and one command away.
 
 ---
 
 ## 📢 Share this Project
 
-Help us grow the community by sharing AI-CLI-HUB!
+Help us grow the community by sharing AI-CLI-PRO!
 
-[![Share on X](https://img.shields.io/badge/Share%20on%20X-000000?style=for-the-badge&logo=x)](https://twitter.com/intent/tweet?text=Check%20out%20AI-CLI-HUB%20-%20All%20your%20AI%20Agents%20in%20one%20command!%20%23VSCode%20%23AI%20%23CLI%20https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
+[![Share on X](https://img.shields.io/badge/Share%20on%20X-000000?style=for-the-badge&logo=x)](https://twitter.com/intent/tweet?text=Check%20out%20AI-CLI-PRO%20-%20All%20your%20AI%20Agents%20in%20one%20command!%20%23VSCode%20%23AI%20%23CLI%20https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
 [![Share on LinkedIn](https://img.shields.io/badge/Share%20on%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/sharing/share-offsite/?url=https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro)
 
 ---
@@ -42,11 +42,11 @@ Experience the power of AI Agents in your terminal with one click.
 
 ## 📊 Global Extension Statistics
 
-AI-CLI-HUB is a multi-platform extension available on all major registries. These metrics are updated in real-time.
+AI-CLI-PRO is a multi-platform extension available on all major registries. These metrics are updated in real-time.
 
 | Metric | Live Status |
 | :--- | :--- |
-| **🌍 Total Global Installs** | [![Total Installs](https://img.shields.io/badge/dynamic/json?color=blue&label=installs&query=%24[-1:].count&url=https%3A%2F%2Fraw.githubusercontent.com%2Flikhith-adithya%2FAI-CLI-HUB-Public%2Fmain%2Fstats.json&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
+| **🌍 Total Global Installs** | [![Total Installs](https://img.shields.io/badge/dynamic/json?color=blue&label=installs&query=%24[-1:].count&url=https%3A%2F%2Fraw.githubusercontent.com%2Flikhith-adithya%2FAI-CLI-PRO-Public%2Fmain%2Fstats.json&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 | **🚀 VS Code Marketplace** | [![MS Installs](https://img.shields.io/visual-studio-marketplace/i/likhith-adithya.ai-cli-pro?style=flat-square&label=installs&color=007acc)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
 | **📦 Open VSX Registry** | [![OVSX Installs](https://img.shields.io/badge/Open%20VSX-884%20installs-orange?style=flat-square)](https://open-vsx.org/extension/likhith-adithya/ai-cli-pro) |
 | **✨ Latest Release** | [![Version](https://img.shields.io/visual-studio-marketplace/v/likhith-adithya.ai-cli-pro?style=flat-square&color=orange)](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) |
@@ -61,7 +61,7 @@ AI-CLI-HUB is a multi-platform extension available on all major registries. Thes
 ## 💻 Compatibility
 
 
-AI-CLI-HUB is designed to work seamlessly across different environments.
+AI-CLI-PRO is designed to work seamlessly across different environments.
 
 ### **Supported IDEs**
 - 🟦 **Visual Studio Code** (v1.80.0 or higher)
@@ -77,7 +77,7 @@ AI-CLI-HUB is designed to work seamlessly across different environments.
 
 ## 💖 Support & Sponsorship
 
-If you find **AI-CLI-HUB** useful and would like to support its development, please consider:
+If you find **AI-CLI-PRO** useful and would like to support its development, please consider:
 
 - ⭐ **Starring** the repository on GitHub
 - 💬 **Sharing** it with your fellow developers
@@ -96,7 +96,7 @@ For full details on tiers, visibility standards, and legal disclaimers, please s
 ## 📋 About This Repository
 
 
-This is the **public issue tracker** for the AI-CLI-HUB VS Code extension. This repository is exclusively for:
+This is the **public issue tracker** for the AI-CLI-PRO VS Code extension. This repository is exclusively for:
 
 - 🐛 **Bug Reports** - Report issues and unexpected behavior
 - ✨ **Feature Requests** - Suggest new features or improvements
@@ -133,7 +133,7 @@ This is the **public issue tracker** for the AI-CLI-HUB VS Code extension. This 
 - ✓ Be clear and descriptive in your title
 - ✓ Include relevant environment details (OS, VS Code version, extension version)
 - ✓ Provide screenshots or error logs when applicable
-- ✓ Be respectful and constructive
+- ✓ Be respectul and constructive
 - ✓ Follow up on your issues if asked for more information
 
 ### ❌ Don'ts
@@ -184,7 +184,7 @@ For a complete list, see [LABELS.md](LABELS.md)
 ## 💬 Community Standards
 
 ### Be Respectful
-We're all volunteers working together to make AI-CLI-HUB better. Treat everyone with respect.
+We're all volunteers working together to make AI-CLI-PRO better. Treat everyone with respect.
 
 ### Be Clear
 Provide enough context for us to understand and reproduce your issue.
@@ -199,7 +199,7 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 
 ## 🔗 Useful Links
 
-- **Main Repository**: [likhith-adithya/AI-CLI-HUB](https://github.com/likhith-adithya/AI-CLI-HUB)
+- **Main Repository**: [likhith-adithya/AI-CLI-PRO](https://github.com/likhith-adithya/AI-CLI-PRO)
 - **Issue Templates**: [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/)
 - **Contributing Guide**: [CONTRIBUTING.md](CONTRIBUTING.md)
 - **All Issues**: [View all issues](../../issues)
@@ -225,10 +225,10 @@ Focus on solutions rather than blame. Suggest improvements rather than just poin
 ---
 
 ## ⚖️ Legal & Trademarks
-AI CLI Hub is an independent tool and is not affiliated with or endorsed by Google, Anthropic, GitHub, or any other third-party provider.
+AI CLI PRO is an independent tool and is not affiliated with or endorsed by Google, Anthropic, GitHub, or any other third-party provider.
 
 - [Privacy Policy](docs/legal/PRIVACY.md) • [Terms of Service](docs/legal/TERMS.md) • [License](LICENSE)
 
 ---
 
-**Thank you for helping us improve AI-CLI-HUB! 🙌**
+**Thank you for helping us improve AI-CLI-PRO! 🙌**

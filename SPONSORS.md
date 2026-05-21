@@ -1,6 +1,6 @@
 # 💖 Sponsorship & Support
 
-Thank you for considering sponsoring **AI-CLI-HUB**! Your contributions directly support the maintenance, development, and infrastructure of this open-source project.
+Thank you for considering sponsoring **AI-CLI-PRO**! Your contributions directly support the maintenance, development, and infrastructure of this open-source project.
 
 ## 🚀 Sponsorship Tiers
 
@@ -32,7 +32,7 @@ We offer several sponsorship tiers designed to provide visibility for your brand
 
 ## 🏗️ Visibility Standards
 
-To maintain the quality and integrity of the AI-CLI-HUB project, all sponsor content (logos, names, and news updates) must adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We reserve the right to decline or remove any sponsorship or associated content that is deemed inappropriate, offensive, or in conflict with the project's values.
+To maintain the quality and integrity of the AI-CLI-PRO project, all sponsor content (logos, names, and news updates) must adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We reserve the right to decline or remove any sponsorship or associated content that is deemed inappropriate, offensive, or in conflict with the project's values.
 
 ---
 
@@ -42,7 +42,7 @@ By becoming a sponsor, you acknowledge and agree to the following:
 
 1.  **Voluntary Contribution:** Sponsorship is a voluntary contribution and does not constitute a contract for services, employment, partnership, or joint venture.
 2.  **No Guarantee of Service:** Sponsorship does not guarantee any specific feature implementation, bug fix, or technical support response time. All contributions are "as-is" to support general project health.
-3.  **Nature of Benefits:** Visibility benefits (logo placement, release note mentions, etc.) are provided as a token of appreciation and do not represent a commercial endorsement by the AI-CLI-HUB maintainers.
+3.  **Nature of Benefits:** Visibility benefits (logo placement, release note mentions, etc.) are provided as a token of appreciation and do not represent a commercial endorsement by the AI-CLI-PRO maintainers.
 4.  **Content Approval:** All logos and announcement text are subject to review and approval by the project maintainers.
 5.  **Termination:** The maintainers reserve the right to terminate a sponsorship visibility arrangement if the sponsor violates the project's Code of Conduct or if the association is deemed detrimental to the project's reputation.
 6.  **Taxation:** Sponsors are solely responsible for any tax implications related to their contributions. Please consult with a tax professional regarding the deductibility of your sponsorship.
@@ -54,6 +54,6 @@ By becoming a sponsor, you acknowledge and agree to the following:
 
 Official sponsorship is handled through **GitHub Sponsors**:
 
-👉 **[Sponsor AI-CLI-HUB on GitHub](https://github.com/sponsors/likhith-adithya)**
+👉 **[Sponsor AI-CLI-PRO on GitHub](https://github.com/sponsors/likhith-adithya)**
 
 For custom sponsorship inquiries, corporate matching programs, or alternative payment methods, please contact the maintainers via the [official contact channels](README.md#-contact--support).

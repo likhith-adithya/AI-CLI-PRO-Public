@@ -59,7 +59,7 @@ Please provide your system information:
 1. Open VS Code
 2. Go to Help > Toggle Developer Tools
 3. Check the Console tab for errors
-4. Or go to Output panel and select "AI-CLI-HUB" from dropdown
+4. Or go to Output panel and select "AI-CLI-PRO" from dropdown
 -->
 
 ```

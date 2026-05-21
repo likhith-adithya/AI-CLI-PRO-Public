@@ -1,9 +1,9 @@
-# Privacy Policy for AI CLI Hub
+# Privacy Policy for AI CLI PRO
 
 **Effective Date:** May 15, 2026
 **Version:** 1.1
 
-AI CLI Hub ("we," "our," or "the Extension") is committed to maintaining the highest standards of privacy. This policy outlines our commitment to data minimization and transparency regarding your use of our VS Code extension.
+AI CLI PRO ("we," "our," or "the Extension") is committed to maintaining the highest standards of privacy. This policy outlines our commitment to data minimization and transparency regarding your use of our VS Code extension.
 
 ### 1. Core Philosophy: Data Minimization & Local Processing
 The Extension is built on a **local-first** architecture. We believe your data should stay where it belongs: on your machine. We do not operate any backend servers for data collection, nor do we harvest your information for sale or analysis.
@@ -15,7 +15,7 @@ The Extension is built on a **local-first** architecture. We believe your data s
 *   **Zero Sales:** We do not, and will never, sell your data to third parties.
 
 ### 3. Third-Party Services & CLI Tools
-AI CLI Hub serves as an orchestrator for independent third-party tools (e.g., Gemini, Claude, OpenAI, Ollama). 
+AI CLI PRO serves as an orchestrator for independent third-party tools (e.g., Gemini, Claude, OpenAI, Ollama). 
 *   **Direct Interaction:** When you use an AI agent, your data (including prompts and code) is transmitted directly from your machine to the third-party provider. This data is governed by the third party's privacy policy.
 *   **No Interception:** We do not proxy, monitor, or intercept the communication between your machine and these services.
 *   **Package Managers:** Operations like "Provision" or "Update" connect directly to official registries (e.g., npm, PyPI, GitHub). These connections are standard and direct.
@@ -35,4 +35,4 @@ We reserve the right to update this Privacy Policy to reflect changes in the Ext
 
 ### 8. Contact Us
 For privacy-related inquiries, please open a public issue on our tracker:
-[https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues](https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues)
+[https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues)

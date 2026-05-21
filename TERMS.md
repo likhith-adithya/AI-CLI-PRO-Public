@@ -1,12 +1,12 @@
-# Terms of Service for AI CLI Hub
+# Terms of Service for AI CLI PRO
 
 **Effective Date:** May 15, 2026
 **Version:** 1.1
 
-By installing, accessing, or using the AI CLI Hub VS Code extension ("the Extension"), you ("User") agree to be bound by these Terms of Service. If you do not agree to these terms, you must not use the Extension and should uninstall it immediately.
+By installing, accessing, or using the AI CLI PRO VS Code extension ("the Extension"), you ("User") agree to be bound by these Terms of Service. If you do not agree to these terms, you must not use the Extension and should uninstall it immediately.
 
 ### 1. Scope of Service
-AI CLI Hub is a management tool and interface for interacting with third-party command-line interface (CLI) applications and AI services. The Extension acts as a local conduit and orchestrator; it does not provide the AI services themselves.
+AI CLI PRO is a management tool and interface for interacting with third-party command-line interface (CLI) applications and AI services. The Extension acts as a local conduit and orchestrator; it does not provide the AI services themselves.
 
 ### 2. User Responsibilities & Conduct
 *   **Tool Verification:** You are solely responsible for verifying the security, integrity, and licensing of any third-party CLI tools you manage through the Extension.
@@ -16,7 +16,7 @@ AI CLI Hub is a management tool and interface for interacting with third-party c
 
 ### 3. Third-Party Tools, Services & Content
 The Extension facilitates the management of tools developed and maintained by third parties (e.g., Google Gemini, Anthropic Claude, OpenAI, Ollama).
-*   **No Agency:** The developer of AI CLI Hub is not an agent, partner, or representative of any third-party tool provider.
+*   **No Agency:** The developer of AI CLI PRO is not an agent, partner, or representative of any third-party tool provider.
 *   **Independent Terms:** Your use of third-party tools is governed by their respective terms of service and privacy policies.
 *   **No Warranty/Liability:** We are not responsible for the performance, security, availability, or accuracy of any third-party tool. Any issues arising from third-party tools must be resolved directly with the respective provider.
 
@@ -43,4 +43,5 @@ If any provision of these Terms is held to be invalid or unenforceable, the rema
 
 ### 11. Contact
 For legal inquiries or notices, please contact via the official issue tracker:
-[https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues](https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues)
+[https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues)
+

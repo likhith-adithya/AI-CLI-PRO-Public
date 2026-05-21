@@ -1,4 +1,4 @@
-# Code of Conduct for AI CLI Hub
+# Code of Conduct for AI CLI PRO
 
 **Effective Date:** May 15, 2026
 **Version:** 1.1
@@ -39,4 +39,4 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 ---
 
-**Attribution:** This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, with additional legal protections for the AI CLI Hub project.
+**Attribution:** This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, with additional legal protections for the AI CLI PRO project.

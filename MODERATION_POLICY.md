@@ -1,4 +1,4 @@
-# Moderation Policy for AI CLI Hub
+# Moderation Policy for AI CLI PRO
 
 **Effective Date:** May 15, 2026
 **Version:** 1.1

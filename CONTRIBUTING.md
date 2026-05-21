@@ -1,6 +1,6 @@
-# Contributing to AI-CLI-HUB
+# Contributing to AI-CLI-PRO
 
-Thank you for your interest in improving AI-CLI-HUB! This guide will help you submit issues and feature requests effectively while protecting the project's legal integrity.
+Thank you for your interest in improving AI-CLI-PRO! This guide will help you submit issues and feature requests effectively while protecting the project's legal integrity.
 
 ## Table of Contents
 1. [Code of Conduct](#code-of-conduct)
@@ -19,7 +19,7 @@ All participants are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT
 ## ⚖️ Legal Notice & Feedback License
 By submitting an issue, feature request, or any other feedback ("Submission") to this repository, you agree to the following:
 
-1.  **License Grant:** You grant the project maintainers a non-exclusive, perpetual, irrevocable, royalty-free, worldwide license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display your Submission in any media. This includes the right to incorporate your suggestions or ideas into the AI-CLI-HUB extension without any obligation to compensate you.
+1.  **License Grant:** You grant the project maintainers a non-exclusive, perpetual, irrevocable, royalty-free, worldwide license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display your Submission in any media. This includes the right to incorporate your suggestions or ideas into the AI-CLI-PRO extension without any obligation to compensate you.
 2.  **No Confidentiality:** Submissions are not confidential. Do not submit any information that you consider proprietary or confidential.
 3.  **Ownership:** You represent and warrant that you own or otherwise control all of the rights to the content of your Submission and that the use of your Submission does not violate any third-party rights.
 4.  **No Obligation:** The project maintainers are under no obligation to implement any feature or fix any bug reported in a Submission.
@@ -27,7 +27,7 @@ By submitting an issue, feature request, or any other feedback ("Submission") to
 ---
 
 ## Getting Started
-AI-CLI-HUB is a **public issue tracker**. The source code is maintained in a private repository for security and development reasons. We value your feedback as the primary driver for our roadmap.
+AI-CLI-PRO is a **public issue tracker**. The source code is maintained in a private repository for security and development reasons. We value your feedback as the primary driver for our roadmap.
 
 ### Prerequisites
 *   Ensure you are using the latest version of the extension.
@@ -80,4 +80,4 @@ Before reporting, [search the issues](../../issues) to see if the bug is already
 *   Read our [README.md](README.md) for an overview.
 *   Consult the [Terms of Service](TERMS.md) and [Privacy Policy](PRIVACY.md).
 
-**Thank you for helping us build AI-CLI-HUB! 🚀**
+**Thank you for helping us build AI-CLI-PRO! 🚀**

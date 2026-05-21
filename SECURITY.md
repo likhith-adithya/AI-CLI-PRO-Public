@@ -1,11 +1,11 @@
 # Security & Reporting Policy
 
 ## 🛡️ Reporting a Vulnerability or Incident
-We take the security and safety of the AI-CLI-HUB community seriously. 
+We take the security and safety of the AI-CLI-PRO community seriously. 
 
 ### 📞 How to Report
 Please open a new issue on our official issue tracker:
-👉 **[Open a New Issue](https://github.com/likhith-adithya/AI-CLI-HUB-Public/issues/new)**
+👉 **[Open a New Issue](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues/new)**
 
 When reporting, please include:
 - A detailed description of the issue or incident.
@@ -23,4 +23,4 @@ When reporting, please include:
 
 ---
 
-**Thank you for helping keep the AI-CLI-HUB community safe! 🤝**
+**Thank you for helping keep the AI-CLI-PRO community safe! 🤝**
