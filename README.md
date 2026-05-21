@@ -71,6 +71,7 @@ AI-CLI-PRO is designed to work seamlessly across different environments.
 - ☁️ **Google Project IDX**
 - 🍐 **PearAI**
 - 🐉 **Trae**
+- 🌌 **Antigravity** (Preview)
 
 ### **Supported Operating Systems**
 - 🍎 **macOS** (Intel & Apple Silicon)
