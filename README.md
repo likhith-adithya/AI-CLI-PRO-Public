@@ -8,7 +8,7 @@
 
 AI-CLI-PRO is the ultimate bridge between your IDE and your terminal. It brings the world's most powerful AI models directly into your command line, enabling a workflow that is faster, smarter, and more autonomous than ever before.
 
-![Demo](./assets/FILE1.gif)
+<img src="./assets/FILE1.gif" width="800" alt="AI-CLI-PRO Demo">
 
 [**👉 INSTALL NOW (VS Code Marketplace)**](https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro) • [**Open VSX**](https://open-vsx.org/extension/likhith-adithya/ai-cli-pro) • [**Sponsor the Innovation**](https://github.com/sponsors/likhith-adithya)
 
