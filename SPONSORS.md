@@ -1,59 +1,67 @@
-# 💖 Sponsorship & Support
+# 💖 Fuel the Future of AI-CLI-PRO
 
-Thank you for considering sponsoring **AI-CLI-PRO**! Your contributions directly support the maintenance, development, and infrastructure of this open-source project.
+Thank you for considering sponsoring **AI-CLI-PRO**! Your support is the engine that drives our innovation, allowing us to maintain high-performance infrastructure, develop cutting-edge features, and keep the project free for everyone.
 
-## 🚀 Sponsorship Tiers
-
-We offer several sponsorship tiers designed to provide visibility for your brand while supporting the project's sustainability.
-
-### 💎 Platinum Sponsor ($100/month)
-*   **Primary Visibility:** Inclusion of a high-resolution logo (up to 200px) at the top of the main `README.md` file.
-*   **Release Announcements:** Dedicated "Sponsor Spotlight" section in each official release note for custom announcements, version updates, or promotional news.
-*   **Priority Feedback Channel:** A designated channel for priority submission of feedback and feature suggestions (subject to the [Terms & Disclaimers](#-legal-terms--disclaimers)).
-
-### 🥇 Gold Sponsor ($50/month)
-*   **Secondary Visibility:** Inclusion of a medium-sized logo (up to 100px) in the "Sponsors" section of the main `README.md`.
-*   **Release Mention:** Recognition in each official release note.
-*   **News Spotlight:** Ability to include a brief news item or update (up to 280 characters) in the release notes.
-
-### 🥈 Silver Sponsor ($25/month)
-*   **Linked Recognition:** Listing of your name or brand with a backlink in the "Sponsors" section of the main `README.md`.
-*   **Release Recognition:** Name mentioned in each official release note.
-
-### 🥉 Bronze Sponsor ($10/month)
-*   **Supporter Listing:** Your name or link listed in the "Supporters" section of this `SPONSORS.md` file.
-*   **Group Mention:** Included in a group acknowledgement in official release notes.
-
-### ☕ Supporter ($5/month)
-*   **Acknowledgement:** Your name listed in the "Supporters" section of this `SPONSORS.md` file.
-*   **Community Support:** A heartfelt thank you for helping sustain the project.
+By sponsoring, you're not just supporting a tool—you're investing in the future of the AI-powered CLI ecosystem.
 
 ---
 
-## 🏗️ Visibility Standards
+## 🚀 Sponsorship Tiers & Perks
 
-To maintain the quality and integrity of the AI-CLI-PRO project, all sponsor content (logos, names, and news updates) must adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We reserve the right to decline or remove any sponsorship or associated content that is deemed inappropriate, offensive, or in conflict with the project's values.
+We offer several tiers designed to provide exceptional visibility for your brand while directly impacting the project's success.
+
+### 💎 Platinum Visionary ($100/month)
+*   **Hero Visibility:** Your high-resolution logo (up to 200px) featured prominently at the top of the main `README.md`.
+*   **Monthly Spotlight:** A dedicated "Sponsor Spotlight" section in every official release note for your announcements or promotional news.
+*   **Direct Impact:** A priority channel for feedback and strategic suggestions, helping us align our roadmap with your needs.
+
+### 🥇 Gold Partner ($50/month)
+*   **Strategic Placement:** Your medium-sized logo (up to 100px) in the "Sponsors" section of the main `README.md`.
+*   **Release Recognition:** Prominent mention in every official release note.
+*   **News Byte:** Ability to include a brief update or shout-out (up to 280 characters) in our release announcements.
+
+### 🥈 Silver Supporter ($25/month)
+*   **Brand Link:** Your name or brand featured with a direct backlink in the "Sponsors" section of the main `README.md`.
+*   **Release Mention:** Recognition in all official release notes.
+
+### 🥉 Bronze Advocate ($10/month)
+*   **Contributor Wall:** Your name or link listed in the "Supporters" section below.
+*   **Community Shout-out:** Inclusion in a group acknowledgement in official release notes.
+
+### ☕ Coffee Contributor ($5/month)
+*   **Supporter Listing:** Your name listed in the "Supporters" section below.
+*   **Heartfelt Thanks:** Our eternal gratitude for helping us keep the lights on!
+
+---
+
+## ✨ Why Sponsor?
+
+1.  **Support Open Source:** Help maintain a vital tool used by thousands of developers.
+2.  **Brand Alignment:** Associate your brand with cutting-edge AI technology and developer productivity.
+3.  **Community Growth:** Enable us to spend more time on community features, documentation, and support.
+
+---
+
+## 🏗️ Our Commitment
+
+To maintain the highest standards of quality and integrity, all sponsor content must align with our [Code of Conduct](CODE_OF_CONDUCT.md). We are committed to a transparent and mutually beneficial relationship with all our sponsors.
 
 ---
 
 ## ⚖️ Legal Terms & Disclaimers
 
-By becoming a sponsor, you acknowledge and agree to the following:
+*Full legal details can be found in our [Terms of Service](docs/legal/TERMS.md).*
 
-1.  **Voluntary Contribution:** Sponsorship is a voluntary contribution and does not constitute a contract for services, employment, partnership, or joint venture.
-2.  **No Guarantee of Service:** Sponsorship does not guarantee any specific feature implementation, bug fix, or technical support response time. All contributions are "as-is" to support general project health.
-3.  **Nature of Benefits:** Visibility benefits (logo placement, release note mentions, etc.) are provided as a token of appreciation and do not represent a commercial endorsement by the AI-CLI-PRO maintainers.
-4.  **Content Approval:** All logos and announcement text are subject to review and approval by the project maintainers.
-5.  **Termination:** The maintainers reserve the right to terminate a sponsorship visibility arrangement if the sponsor violates the project's Code of Conduct or if the association is deemed detrimental to the project's reputation.
-6.  **Taxation:** Sponsors are solely responsible for any tax implications related to their contributions. Please consult with a tax professional regarding the deductibility of your sponsorship.
-7.  **No Warranty:** The project maintainers provide no warranties, express or implied, regarding the reach or effectiveness of the visibility benefits provided.
+1.  **Voluntary Contribution:** Sponsorship is a voluntary contribution to project health.
+2.  **No Guarantee:** While we prioritize feedback from sponsors, sponsorship does not guarantee specific feature delivery or technical support response times.
+3.  **Content Review:** All logos and announcement text are subject to review to ensure they meet our community standards.
 
 ---
 
-## 💳 How to Sponsor
+## 💳 Ready to Partner?
 
-Official sponsorship is handled through **GitHub Sponsors**:
+Official sponsorship is managed through **GitHub Sponsors**:
 
-👉 **[Sponsor AI-CLI-PRO on GitHub](https://github.com/sponsors/likhith-adithya)**
+👉 **[Become a Sponsor on GitHub](https://github.com/sponsors/likhith-adithya)**
 
-For custom sponsorship inquiries, corporate matching programs, or alternative payment methods, please contact the maintainers via the [official contact channels](README.md#-contact--support).
+*For corporate matching, custom inquiries, or alternative payment methods, please reach out via our [official contact channels](README.md#-contact--support).*

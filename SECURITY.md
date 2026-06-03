@@ -1,26 +1,38 @@
-# Security & Reporting Policy
+# Security & Safety Policy
 
-## 🛡️ Reporting a Vulnerability or Incident
-We take the security and safety of the AI-CLI-PRO community seriously. 
-
-### 📞 How to Report
-Please open a new issue on our official issue tracker:
-👉 **[Open a New Issue](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues/new)**
-
-When reporting, please include:
-- A detailed description of the issue or incident.
-- Links to any relevant comments, issues, or pull requests (if applicable).
-- Steps to reproduce the vulnerability (for security bugs).
-- Any screenshots or evidence that might assist the investigation.
-
-> **Note on Privacy**: Please be aware that issues opened on this repository are **public**. If you are reporting a sensitive personal incident or a severe security vulnerability, please exercise caution regarding the information you share publicly.
-
-### 🕵️ Our Process
-1.  **Acknowledgment:** We will acknowledge receipt of your report within 48 hours.
-2.  **Investigation:** We will investigate the issue and may reach out for further clarification.
-3.  **Resolution:** For security bugs, we will provide a timeline for a fix. For moderation issues, we will take action according to our [Moderation Policy](MODERATION_POLICY.md).
-4.  **Action:** Decisions regarding moderation or security fixes are at the sole discretion of the maintainers.
+## 🛡️ Our Commitment
+We take the security of our users and the integrity of the AI-CLI-PRO community as our highest priority. We are committed to a transparent, fast, and responsible disclosure process.
 
 ---
 
-**Thank you for helping keep the AI-CLI-PRO community safe! 🤝**
+## 📞 Reporting a Vulnerability
+If you've discovered a security vulnerability, we want to hear from you. 
+
+### **How to Report**
+Please open a **High Priority** issue on our official tracker:
+👉 [**Open a Security Report**](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues/new?labels=security,high-priority&title=[SECURITY]+)
+
+**Please include:**
+*   A clear description of the vulnerability.
+*   The potential impact (e.g., data leak, unauthorized access).
+*   Detailed steps to reproduce the issue.
+*   Screenshots or proof-of-concept (PoC) code if available.
+
+> ⚠️ **Important:** Issues on this repository are **public**. If you are reporting an extremely sensitive vulnerability that should not be public until a fix is released, please state this clearly at the top of your issue, and we will move the conversation to a private channel immediately.
+
+---
+
+## 🕵️ Our Response Process
+We treat every security report with the urgency it deserves:
+
+1.  **Triage:** We will acknowledge your report within **24-48 hours**.
+2.  **Investigation:** Our team will perform a deep-dive investigation and confirm the vulnerability.
+3.  **Resolution:** We will provide a timeline for a patch and keep you updated on our progress.
+4.  **Disclosure:** Once a fix is deployed, we will coordinate a public announcement (if appropriate) to help our community stay safe.
+
+---
+
+## 📋 Community Moderation
+For issues related to harassment, spam, or violations of our [Code of Conduct](CODE_OF_CONDUCT.md), please use the same issue tracker with the `moderation` label.
+
+**Thank you for helping us build a safer future for AI-powered development! 🤝**
