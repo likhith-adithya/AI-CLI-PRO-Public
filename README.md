@@ -82,6 +82,15 @@ If AI-CLI-PRO helps you build better software, consider fueling our development.
 
 ---
 
+## 📩 Contact & Support
+
+For business inquiries, legal notices, or private support requests, please reach out to us directly:
+
+*   **Email:** [aiclipro@gmail.com](mailto:aiclipro@gmail.com)
+*   **Issues:** [GitHub Issue Tracker](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues)
+
+---
+
 [Privacy Policy](docs/legal/PRIVACY.md) • [Terms of Service](docs/legal/TERMS.md) • [License](LICENSE)
 
 **Join thousands of developers and start commanding the future today.** 🧠⚡

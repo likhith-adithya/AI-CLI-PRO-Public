@@ -64,4 +64,15 @@ Official sponsorship is managed through **GitHub Sponsors**:
 
 👉 **[Become a Sponsor on GitHub](https://github.com/sponsors/likhith-adithya)**
 
-*For corporate matching, custom inquiries, or alternative payment methods, please reach out via our [official contact channels](README.md#-contact--support).*
+---
+
+## 🛠️ Sponsorship & "Sponsored Slot" Process
+
+Interested in a **Platinum** or **Gold** tier, or looking to secure a **"Sponsored Slot"** for your CLI tool? Here is our streamlined process:
+
+1.  **Inquiry:** Reach out to us at **[aiclipro@gmail.com](mailto:aiclipro@gmail.com)** with your brand details and the tier/slot you are interested in.
+2.  **Review:** We will review your tool/brand to ensure alignment with our [Code of Conduct](CODE_OF_CONDUCT.md) and community standards (usually within 48 hours).
+3.  **Onboarding:** Once approved, we will provide you with the technical specifications for your logo and the link/description for your slot.
+4.  **Activation:** Your sponsorship perks or pinned slot will go live with the next scheduled update or release.
+
+*For corporate matching, custom inquiries, or alternative payment methods, please reach out via email.*

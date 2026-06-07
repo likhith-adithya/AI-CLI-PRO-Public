@@ -41,6 +41,7 @@ By submitting an issue or feature request, you agree to grant the AI-CLI-PRO mai
 ## 🚀 Ready to Dive In?
 
 *   [**Open a New Issue**](../../issues/new/choose)
+*   [**Sponsor the Project**](SPONSORS.md)
 *   [**Join the Discussions**](../../discussions) (Coming Soon)
 *   [**Read the README**](README.md)
 

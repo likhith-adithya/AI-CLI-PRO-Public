@@ -20,13 +20,20 @@ The Extension facilitates the management of tools developed and maintained by th
 *   **Independent Terms:** Your use of third-party tools is governed by their respective terms of service and privacy policies.
 *   **No Warranty/Liability:** We are not responsible for the performance, security, availability, or accuracy of any third-party tool. Any issues arising from third-party tools must be resolved directly with the respective provider.
 
-### 4. Disclaimer of Warranties
+### 4. Sponsored Content and Featured Listings
+The Extension may display certain third-party CLI agents or tools with labels such as **"Sponsored," "Featured," "Promoted,"** or a **"Star (⭐)"** badge.
+*   **Paid Advertisement:** User acknowledges that such labels indicate a commercial advertising arrangement between the third-party provider ("Sponsor") and AI CLI PRO.
+*   **No Endorsement:** The presence of a "Sponsored" or "Featured" badge does **not** constitute an endorsement, technical audit, security review, or warranty of quality by the Developer. AI CLI PRO does not vet the underlying code, safety, or efficacy of any third-party tool, regardless of its placement within the interface.
+
+### 5. Disclaimer of Warranties
 THE EXTENSION IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE EXTENSION WILL BE ERROR-FREE, SECURE, OR UNINTERRUPTED.
 
-### 5. Limitation of Liability
+### 6. Limitation of Liability
 TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATING TO THE USE OF OR INABILITY TO USE THE EXTENSION, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT, OR OTHERWISE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-### 6. Indemnification
+AI CLI PRO OPERATES STRICTLY AS A DIRECTORY AND CONDUIT FOR THIRD-PARTY SOFTWARE. IF A USER CHOOSES TO INSTALL OR EXECUTE A SPONSORED AGENT, THEY DO SO AT THEIR OWN INDEPENDENT DISCRETION AND RISK. THE DEVELOPER SHALL HAVE NO LIABILITY FOR DAMAGES ARISING FROM THE USE OF SPONSORED OR FEATURED TOOLS, INCLUDING BUT NOT LIMITED TO SYSTEM INSTABILITY, DATA LOSS, OR SECURITY VULNERABILITIES. ANY RECOURSE MUST BE SOUGHT DIRECTLY FROM THE THIRD-PARTY PROVIDER.
+
+### 7. Indemnification
 You agree to defend, indemnify, and hold harmless the developer from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses (including but not limited to attorney's fees) arising from: (i) your use of and access to the Extension; (ii) your violation of any term of these Terms of Service; or (iii) your violation of any third-party right, including without limitation any copyright, property, or privacy right.
 
 ### 7. Intellectual Property
@@ -42,6 +49,6 @@ These Terms shall be governed by and construed in accordance with the laws of th
 If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions will remain in full force and effect. These Terms, together with any other legal notices published by us, constitute the entire agreement between you and the developer regarding the Extension.
 
 ### 11. Contact
-For legal inquiries or notices, please contact via the official issue tracker:
+For legal inquiries, notices, or support, please contact us via email at **aiclipro@gmail.com** or via the official issue tracker:
 [https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues)
 
