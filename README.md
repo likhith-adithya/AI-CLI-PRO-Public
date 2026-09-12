@@ -1,28 +1,35 @@
-<h1 align="center">✨ AI CLI PRO</h1>
+<div align="center">
+  <h1>✨ AI CLI PRO</h1>
+  <p><strong>An independent AI & developer CLI command center for VS Code.</strong></p>
 
-<p align="center">
-  <b>An Independent AI & Developer CLI Command Center for VS Code.</b><br>
-  <i>Discover, launch, provision, and manage supported AI and developer CLIs directly from your editor.</i>
-</p>
+  <p>
+    <a href="https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro">
+      <img src="https://img.shields.io/badge/Version-0.0.87-6A11CB?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Version">
+    </a>
+    <img src="https://img.shields.io/badge/Status-Tested-2ECC71?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Platform-macOS%20|%20Win%20|%20Linux-2575FC?style=for-the-badge" alt="Platforms">
+  </p>
 
-<p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro">
-    <img src="https://img.shields.io/badge/Version-0.0.87-6A11CB?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Version">
-  </a>
-  <img src="https://img.shields.io/badge/Status-Tested-2ECC71?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
-  <img src="https://img.shields.io/badge/Focus-CLI_Management-FF9F43?style=for-the-badge" alt="Focus">
-  <img src="https://img.shields.io/badge/Platform-macOS_|_Win_|_Linux-2575FC?style=for-the-badge" alt="Platforms">
-</p>
+  <p>
+    <img src="https://raw.githubusercontent.com/likhith-adithya/AI-CLI-PRO-Public/main/icon.png" width="160" alt="AI CLI PRO Logo">
+  </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/likhith-adithya/AI-CLI-PRO-Public/main/icon.png" width="256" alt="AI CLI PRO Logo">
-</p>
+  <p>
+    <em>Discover, provision, launch, and manage third-party AI and developer CLIs directly from your editor.</em>
+  </p>
 
+  <p>
+    <a href="#quick-start"><strong>Quick Start</strong></a>
+    &nbsp;·&nbsp;
+    <a href="SECURITY.md">Security</a>
+    &nbsp;·&nbsp;
+    <a href="docs/legal/PRIVACY.md">Privacy</a>
+  </p>
 
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/likhith-adithya/AI-CLI-PRO-Public/main/assets/FILE1.gif" width="100%" alt="AI CLI PRO Demo">
-</p>
+  <p>
+    <img src="https://raw.githubusercontent.com/likhith-adithya/AI-CLI-PRO-Public/main/assets/FILE1.gif" width="720" alt="AI CLI PRO Demo">
+  </p>
+</div>
 
 
 
@@ -30,163 +37,86 @@
 
 ## ⚡️ Core Capabilities
 
-| 🧩 **Unified Interface** | 🚀 **Guided Setup** | 🛡️ **Local Execution** |
-| :--- | :--- | :--- |
-| One sidebar for supported AI and developer CLIs, from cloud-based assistants such as Gemini CLI and Claude Code to local tools such as Ollama. | Missing a supported CLI? Select **Provision** to start a guided installation using the configured package manager for that tool. | Run compatible open-weight models locally through supported local runtimes such as Ollama, keeping inference on your machine when the selected model and configuration support local execution. |
+## Quick Start
+---
+
+
+```bash
+code --install-extension likhith-adithya.ai-cli-pro
+```
 
 ---
 
-## 🚀 Getting Started
+## Key Features
 
-### 📦 Installation
-Getting AI CLI PRO running in your editor takes less than a minute.
+- Unified sidebar for discovering and launching supported CLIs
+- Guided provisioning via official installers or package managers
+- Local model/runtime support where available (e.g., Ollama)
+- Simple lifecycle operations: install, update, launch, remove
 
-**Method 1: VS Code Marketplace (Recommended)**
-1. Open VS Code.
-2. Go to the Extensions view (`Cmd+Shift+X` or `Ctrl+Shift+X`).
-3. Search for **AI CLI PRO**.
-4. Click **Install**.
-
-**Method 2: Quick Command**
-1. Press `Cmd+P` (macOS) or `Ctrl+P` (Windows/Linux) to open the Quick Open panel.
-2. Paste the following command and hit Enter:
-   ```bash
-   ext install likhith-adithya.ai-cli-pro
-   ```
+**Design notes:** AI CLI PRO intentionally delegates authentication, secrets, and provider-specific access to the third‑party CLIs. It does not extract, proxy, or store provider credentials.
 
 ---
 
-## 🎮 How to Use
+## Highlights — CLI Power Words
 
-### 1️⃣ **Discovery**
-Open the **AI CLI PRO Sidebar** (terminal icon 📟). Your configured CLI integrations are listed with their current installation status.
-
-### 2️⃣ **Provisioning**
-
-Missing a supported CLI? Select **Provision** to start a guided installation using the configured package manager or installation method associated with that tool.
-
-> AI CLI PRO does not bundle or modify third-party AI services. Installation commands are executed visibly through the user's local VS Code terminal. The user remains responsible for the third-party tool's license, account, subscription, and terms of service.
-
-### 3️⃣ **Execution**
-
-Select **Launch ▶️** to start the selected CLI in a VS Code terminal.
-
-> AI CLI PRO launches the CLI available on the user's system. Authentication, credentials, subscriptions, API access, and communication with the underlying provider remain under the control of that third-party CLI.
+- One‑click provisioning & instant launch
+- Zero‑config discovery for developer tooling
+- Native terminal UX — run CLIs where you work
+- Fast dev loops: launch, test, iterate
+- Secure by design — no credential harvesting
+- Enterprise‑ready: audit trails & reproducible installs
+- Extensible integrations & plugin‑style adapters
+- Offline‑first local model support (where available)
+- Unified CLI dashboard for multi‑cloud tooling
+- Smart updates: safe, non‑destructive lifecycle actions
 
 ---
 
-## 🤖 Supported CLI Integrations
+## ✨ Vibe Check — Gen Z Style
 
-AI CLI PRO provides a unified interface for supported third-party AI and developer CLIs. Product names and services remain owned and operated by their respective providers.
+Welcome to the glow‑up for your terminal. AI CLI PRO is low‑friction, hype‑ready, and built for devs who want results fast — no cap.
 
-### ☁️ **Cloud CLIs**
-*   **Antigravity CLI** • CLI support for the Google Antigravity ecosystem.
-*   **Gemini CLI** • Access Google's Gemini capabilities through the official Gemini CLI.
-*   **Claude Code** • Anthropic's coding-focused CLI.
-*   **GitHub Copilot CLI** • GitHub's command-line interface for Copilot.
-*   **Codex** • OpenAI's coding-focused CLI.
+- Plug‑and‑play integrations — get a CLI running in seconds ⚡
+- 1‑click provisioning & instant launch — stress‑free setup 🚀
+- Native terminal vibes — nothing lost, everything local 🖥️✨
+- Offline‑first local model support where possible — stay productive anywhere 🌐↔️📦
+- Secure by design — we never hoard your creds 🔒
+- Extensible & modular — add integrations like plugins 🔌
+- Audit‑ready installs for teams and orgs — compliant and tidy 📋✅
 
-### 🦙 **Local Runtime Support (via Ollama)**
-*   **DeepSeek, Llama, Mistral, Phi, Qwen** • Run compatible open-weight models locally through Ollama. Model availability and licensing depend on the individual model — see [Model Licensing](#-model-licensing) below.
-
-> **Note:** "Supported" means AI CLI PRO provides one or more documented integration workflows for the tool, such as launch, provisioning, update, or removal. Support does not imply affiliation, endorsement, certification, authorization, or ownership by the third-party provider. See [Legal & Third-Party Notice](#️-legal--third-party-notice) below.
+Want to flex your workflows? Open the sidebar, pick a CLI, and press launch. Simple as that — big energy, small setup.
 
 ---
 
-## ✨ Features
+## Supported Integrations (examples)
 
-*   **🚀 Fast Sidebar**: Loads with VS Code, keeping your workflow fluid.
-*   **🛠️ CLI Lifecycle Management**: Detect supported tools and provide installation, update, launch, and removal workflows.
-*   **🛰️ Unified Control Plane**: Manage **AWS, Docker, and Kubernetes** side-by-side with your AI CLI integrations.
-*   **🧹 Controlled Cleanup**: Removal operations target only the CLI binary managed by AI CLI PRO. User-created configuration, authentication data, models, and project files are not automatically deleted.
+- Gemini CLI (Google)
+- Claude Code (Anthropic)
+- GitHub Copilot CLI
+- Ollama (local runtimes)
+- Hugging Face CLI
 
----
-
-## ⌨️ Power User Shortcuts
-
-| Action | macOS | Windows/Linux |
-| :--- | :--- | :--- |
-| **Quick Launch** | `Cmd + Opt + A` | `Ctrl + Alt + A` |
-| **Focus Dashboard** | `Cmd + Shift + P` → `Focus` | `Ctrl + Shift + P` → `Focus` |
+Full register: `docs/providers/THIRD-PARTY-CLIS.md`.
 
 ---
 
-## 🔐 Authentication & Credentials
+## Security & Privacy
 
-AI CLI PRO does not require users to provide third-party API keys, OAuth tokens, passwords, or authentication secrets to AI CLI PRO.
-
-Supported third-party CLIs handle their own authentication and communication with their respective providers. AI CLI PRO does not intentionally extract, proxy, reuse, or transmit third-party CLI authentication credentials.
-
-You remain responsible for maintaining valid accounts, licenses, subscriptions, and authorization for the third-party tools you use.
+See `SECURITY.md` and `docs/legal/PRIVACY.md` for disclosure, telemetry, and privacy details.
 
 ---
 
-## 📦 Third-Party Software
+## Contributing & Support
 
-AI CLI PRO may detect, launch, install, update, or manage third-party command-line software.
-
-Unless explicitly stated otherwise, AI CLI PRO does not distribute the underlying third-party service itself. Third-party software remains subject to its own license and terms. Installation and update commands may download software from official vendor or package-manager distribution channels.
-
-AI CLI PRO does not bypass, circumvent, disable, or interfere with third-party authentication, authorization, subscriptions, usage limits, access controls, safety controls, or licensing requirements.
+Contributions welcome. See `CONTRIBUTING.md`. For support or to report issues, use the repository issue tracker or `SUPPORT.md`.
 
 ---
 
-## 🧠 Model Licensing
+## License
 
-AI CLI PRO may provide integrations with local model runtimes and model registries.
-
-Individual models may have separate licenses, usage restrictions, attribution requirements, acceptable-use policies, or commercial-use conditions. Users are responsible for reviewing and complying with the license applicable to each model they download or use.
+Apache‑2.0 — see `LICENSE`.
 
 ---
 
-## 📊 Third-Party Provider Responsibilities
-
-| Integration | AI CLI PRO provides | Provider controls |
-| --- | --- | --- |
-| Gemini CLI | Launch and installation workflow | Authentication, Google services, usage policies |
-| Claude Code | Launch and installation workflow | Anthropic authentication, service access, licensing |
-| GitHub Copilot CLI | Launch and installation workflow | GitHub account, Copilot entitlement, service policies |
-| Codex | Launch and installation workflow | OpenAI authentication and service access |
-| Ollama | Local CLI management | Local model execution and model-specific licenses |
-| Hugging Face CLI | CLI management | Hugging Face account/services and applicable model licenses |
-
-Third-party integrations may change as provider software, licenses, or service policies change.
-
----
-
-## 🤝 Community & Support
-
-<p align="left">
-  <a href="https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues/new?title=Feature+Request">
-    <img src="https://img.shields.io/badge/Suggest-Feature-6A11CB?style=for-the-badge&logo=github" alt="Feature Request">
-  </a>
-  <a href="https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues/new?title=Bug+Report">
-    <img src="https://img.shields.io/badge/Report-Bug-eb4034?style=for-the-badge&logo=github" alt="Bug Report">
-  </a>
-  <a href="https://github.com/likhith-adithya/AI-CLI-PRO-Public#%EF%B8%8F-support--sponsorship">
-    <img src="https://img.shields.io/badge/Support-Project-FF9F43?style=for-the-badge&logo=github-sponsors" alt="Support">
-  </a>
-</p>
-
-<p align="left">
-  <a href="https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro&ssr=false#review-details">
-    <img src="https://img.shields.io/badge/Leave_a_Review-Support_the_Project-2ECC71?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Leave a Review">
-  </a>
-</p>
-
----
-
-## ⚖️ Legal & Third-Party Notice
-
-**AI CLI PRO is an independent third-party developer tool. It is not affiliated with, endorsed by, sponsored by, or officially associated with Google, Anthropic, GitHub, OpenAI, Meta, Mistral AI, DeepSeek, Ollama, Hugging Face, or other third-party providers referenced by the project, unless expressly stated otherwise.**
-
-Third-party product names and trademarks belong to their respective owners. References to third-party products are made for identification, compatibility, and integration purposes only.
-
-AI CLI PRO provides integration and lifecycle management capabilities for supported command-line tools. Third-party CLIs, models, APIs, accounts, subscriptions, and services remain subject to their respective licenses and terms.
-
-[Privacy Policy](https://github.com/likhith-adithya/AI-CLI-PRO-Public/blob/main/docs/legal/PRIVACY.md) • [Terms](https://github.com/likhith-adithya/AI-CLI-PRO-Public/blob/main/docs/legal/TERMS.md) • [License](https://github.com/likhith-adithya/AI-CLI-PRO-Public/blob/main/LICENSE) • [Third-Party Notices](https://github.com/likhith-adithya/AI-CLI-PRO-Public/blob/main/THIRD-PARTY-NOTICES.md) • [Security](https://github.com/likhith-adithya/AI-CLI-PRO-Public/blob/main/SECURITY.md)
-
----
-<p align="center">
-  <b>Built for developers who live in the terminal but work in the IDE.</b> 💻
-</p>
+Built for developers who live in the terminal but work in the IDE.
