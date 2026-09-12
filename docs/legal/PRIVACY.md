@@ -1,44 +1,94 @@
 # Privacy Policy for AI CLI PRO
 
-**Effective Date:** May 15, 2026
-**Version:** 1.1
+**Effective Date:** May 15, 2026  
+**Version:** 1.2
 
-AI CLI PRO ("we," "our," or "the Extension") is committed to maintaining high standards of privacy while delivering a high-performance experience. This policy outlines our commitment to transparency and data minimization.
+AI CLI PRO ("we," "our," or "the Extension") is committed to transparency about how the extension functions and what data, if any, it handles. This policy describes our data practices and your rights.
 
-### 1. Core Philosophy: Performance & Privacy
-The Extension is built on a **local-first** architecture. Your code and prompts stay on your machine. We use minimal, anonymized telemetry strictly to ensure the Extension is fast, stable, and reliable for all users.
+---
 
-### 2. Information We Do Not Collect
-*   **Zero Personal Data:** We do not collect names, email addresses, phone numbers, or any government-issued identifiers.
-*   **Zero Credentials:** We never request, store, or transmit your API keys, tokens, or passwords.
-*   **Zero Sales:** We do not, and will never, sell your personal data to third parties.
+### 1. Architecture: Local-First Design
 
-### 3. Anonymized Usage & Performance Telemetry
-To make the CLI faster and better, the Extension may collect anonymous usage metrics and error verification data.
-*   **Purpose:** This data is used exclusively for performance optimization, error resolution, and understanding general usage trends (e.g., "Which features are used most?" or "Does Agent X fail on certain OS versions?").
-*   **Scope:** Telemetry is limited to aggregate statistics and technical error logs. It does **not** include your prompts, code, filenames, or any data that could be linked to your individual identity.
-*   **Sponsorship Metrics:** We may report aggregate installation counts to our sponsors (e.g., "Total installs of Agent Y"), but this never includes user-specific data.
+The Extension is built on a **local-first** architecture. AI CLI PRO operates as a launcher and lifecycle manager for third-party command-line tools running in the user's own terminal. It does not operate a backend server that processes your prompts or agent outputs.
+
+---
+
+### 2. What AI CLI PRO Does Not Intentionally Collect
+
+*   **No Third-Party Credentials:** AI CLI PRO does not request, store, or transmit your API keys, OAuth tokens, or passwords. All authentication remains managed by the respective third-party CLI tools in their local configuration directories.
+*   **No Prompts or Code:** AI CLI PRO does not intercept, read, or transmit the prompts, code, or responses exchanged between you and a third-party CLI.
+*   **No Sale of Data:** We do not sell user data to third parties.
+
+---
+
+### 3. Telemetry
+
+AI CLI PRO may collect limited technical telemetry to understand extension usage, reliability, and compatibility characteristics. Telemetry behavior follows VS Code's global telemetry settings — if you have disabled telemetry in VS Code, AI CLI PRO respects that setting.
+
+Depending on your VS Code telemetry configuration, telemetry may include technical information such as:
+
+*   AI CLI PRO version
+*   VS Code version
+*   Operating system and architecture
+*   Basic hardware characteristics
+*   Installation or availability state of supported CLI integrations (e.g., "Gemini CLI detected: true/false")
+*   Anonymous feature usage events (e.g., "provision workflow initiated")
+*   Technical error information
+
+**Telemetry does not include:**
+
+*   API keys, OAuth tokens, or passwords
+*   Prompt content or AI-generated responses
+*   Source code or workspace file contents
+*   Authentication credentials belonging to third-party CLI providers
+
+You can control telemetry via VS Code's `telemetry.telemetryLevel` setting. Setting it to `off` disables telemetry collection for AI CLI PRO.
+
+---
 
 ### 4. Third-Party Services & CLI Tools
-AI CLI PRO serves as an orchestrator for independent third-party tools (e.g., Gemini, Claude, OpenAI, Ollama). 
-*   **Direct Interaction:** When you use an AI agent, your data (including prompts and code) is transmitted directly from your machine to the third-party provider. This data is governed by the third party's privacy policy.
-*   **No Interception:** We do not proxy, monitor, or intercept the communication between your machine and these services.
-*   **Package Managers:** Operations like "Provision" or "Update" connect directly to official registries (e.g., npm, PyPI, GitHub). These connections are standard and direct.
 
-### 4. Local Data Storage
-To provide its functionality, the Extension stores minimal configuration data (e.g., cached installation status of local agents and release note history) locally on your device using the VS Code Global State API. 
+AI CLI PRO serves as a launcher and lifecycle manager for independent third-party tools (e.g., Gemini CLI, Claude Code, GitHub Copilot CLI, Ollama).
+
+*   **Direct Interaction:** When you use a third-party CLI, your data (including prompts and code) is transmitted directly between the CLI on your machine and the third-party provider. This data is governed by the third party's privacy policy, not by this document.
+*   **No Interception:** AI CLI PRO does not proxy, monitor, or intercept the communication between the third-party CLI and its provider.
+*   **Package Managers:** Operations like "Provision" or "Update" connect directly to official registries (e.g., npm, PyPI, Homebrew). These connections are standard and direct.
+
+---
+
+### 5. Local Data Storage
+
+To provide its functionality, the Extension stores minimal configuration data (e.g., your preferred CLI visibility settings) locally on your device using the VS Code Global State API.
+
 *   **Control:** You can view, modify, or delete this data at any time by clearing your VS Code global storage or uninstalling the extension.
 
-### 5. Legal Requests for Information
-Because we do not collect or store your data, we have no data to provide to law enforcement, government agencies, or third-party litigants in response to subpoenas or other legal requests.
+---
 
-### 6. Children's Privacy
-The Extension is a tool intended for developers and is not directed at children under the age of 16. We do not knowingly collect information from children.
+### 6. Legal Requests for Information
 
-### 7. Changes to This Policy
-We reserve the right to update this Privacy Policy to reflect changes in the Extension's functionality or legal requirements. Updates will be noted in the extension's version history and the repository.
+AI CLI PRO does not intentionally collect user content or authentication credentials. Because we do not centrally store personal data or credentials, we have very limited data to provide in response to legal requests. Any telemetry data we do retain is governed by applicable law and our retention policies.
 
-### 8. Contact Us
-For privacy-related inquiries, please contact us via email at **aiclipro@gmail.com** or open a public issue on our tracker:
+---
+
+### 7. Children's Privacy
+
+The Extension is a developer tool and is not directed at children under the age of 16. We do not knowingly collect information from children.
+
+---
+
+### 8. Geographic Information
+
+Telemetry infrastructure may derive coarse geographic information (such as country or region) from network metadata as part of standard telemetry processing. We do not intentionally store raw IP addresses as part of AI CLI PRO's telemetry pipeline.
+
+---
+
+### 9. Changes to This Policy
+
+We reserve the right to update this Privacy Policy to reflect changes in the Extension's functionality, telemetry implementation, or legal requirements. Updates will be noted in the extension's version history and the repository.
+
+---
+
+### 10. Contact Us
+
+For privacy-related inquiries, please open a public issue on our tracker:  
 [https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues)
-
