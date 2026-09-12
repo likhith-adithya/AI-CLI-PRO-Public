@@ -34,7 +34,11 @@ in the project directory, or by reviewing the `package-lock.json` and the `LICEN
 
 ## 4. Third-Party CLI Integrations (Not Distributed)
 
-AI CLI PRO supports the following third-party CLI tools. These tools are **not bundled or redistributed** by AI CLI PRO unless expressly stated. They are installed by the user through official distribution channels.
+AI CLI PRO supports the following third-party CLI tools. These tools are **not bundled or redistributed** by AI CLI PRO unless expressly stated.
+
+Important: AI CLI PRO may initiate or automate installation using official package managers or vendor-provided installers, but it does not bundle, redistribute, or repackage third-party CLIs unless explicitly authorized and documented. In other words, AI CLI PRO can invoke an official installer on the user's system, but it does not act as a redistributor of the third-party software.
+
+They are installed by the user through official distribution channels.
 
 | CLI | Provider | Distribution | License |
 | --- | --- | --- | --- |

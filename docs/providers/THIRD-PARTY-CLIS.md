@@ -2,6 +2,29 @@
 
 This document is AI CLI PRO's internal compliance register. It records the reviewed integration metadata for each supported CLI, including distribution method, license status, authentication model, and whether AI CLI PRO redistributes the software.
 
+## Entry Template
+
+Use this template when adding or reviewing an integration entry:
+
+| Field | Value |
+| --- | --- |
+| **Provider** | |
+| **CLI** | |
+| **Official website** | |
+| **Official documentation** | |
+| **Distribution method** | (npm / pip / installer / package manager) |
+| **Package or installer** | |
+| **License** | |
+| **Authentication owner** | |
+| **AI CLI PRO role** | (Integration / launch / lifecycle management) |
+| **Redistribution status** | (Yes / No) |
+| **Trademark owner** | |
+| **Terms URL** | |
+| **Privacy URL** | |
+| **Last reviewed** | YYYY-MM-DD |
+
+Fill each field for clarity and to support compliance reviews.
+
 > **Note:** Provider terms, distribution methods, and license conditions can change. Each entry records a "Last Reviewed" date. Review entries when publishing a new release.
 
 ---

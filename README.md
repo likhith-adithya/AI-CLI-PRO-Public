@@ -89,7 +89,7 @@ AI CLI PRO provides a unified interface for supported third-party AI and develop
 ### 🦙 **Local Runtime Support (via Ollama)**
 *   **DeepSeek, Llama, Mistral, Phi, Qwen** • Run compatible open-weight models locally through Ollama. Model availability and licensing depend on the individual model — see [Model Licensing](#-model-licensing) below.
 
-> **Note:** "Supported" means AI CLI PRO provides a launch, provision, update, and removal workflow. It does not imply affiliation with or endorsement by the provider. See [Legal & Third-Party Notice](#️-legal--third-party-notice) below.
+> **Note:** "Supported" means AI CLI PRO provides one or more documented integration workflows for the tool, such as launch, provisioning, update, or removal. Support does not imply affiliation, endorsement, certification, authorization, or ownership by the third-party provider. See [Legal & Third-Party Notice](#️-legal--third-party-notice) below.
 
 ---
 
@@ -126,6 +126,8 @@ You remain responsible for maintaining valid accounts, licenses, subscriptions, 
 AI CLI PRO may detect, launch, install, update, or manage third-party command-line software.
 
 Unless explicitly stated otherwise, AI CLI PRO does not distribute the underlying third-party service itself. Third-party software remains subject to its own license and terms. Installation and update commands may download software from official vendor or package-manager distribution channels.
+
+AI CLI PRO does not bypass, circumvent, disable, or interfere with third-party authentication, authorization, subscriptions, usage limits, access controls, safety controls, or licensing requirements.
 
 ---
 

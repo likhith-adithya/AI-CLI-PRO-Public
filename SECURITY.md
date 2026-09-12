@@ -5,30 +5,40 @@ We take the security of our users and the integrity of the AI-CLI-PRO community 
 
 ---
 
-## 📞 Reporting a Vulnerability
-If you've discovered a security vulnerability, we want to hear from you. 
+## 📞 Reporting a Security Vulnerability
+If you discover a security vulnerability in AI CLI PRO, please report it privately whenever possible.
 
-### **How to Report**
-Please open a **High Priority** issue on our official tracker:
-👉 [**Open a Security Report**](https://github.com/likhith-adithya/AI-CLI-PRO-Public/issues/new?labels=security,high-priority&title=[SECURITY]+)
+### 🔐 Private Reporting
+Please use GitHub's private security reporting / Security Advisories feature when available. When reporting privately, do not publish exploit details or sensitive data in public issues.
 
-**Please include:**
-*   A clear description of the vulnerability.
-*   The potential impact (e.g., data leak, unauthorized access).
-*   Detailed steps to reproduce the issue.
-*   Screenshots or proof-of-concept (PoC) code if available.
+Do not publicly disclose:
 
-> ⚠️ **Important:** Issues on this repository are **public**. If you are reporting an extremely sensitive vulnerability that should not be public until a fix is released, please state this clearly at the top of your issue, and we will move the conversation to a private channel immediately.
+- API keys or authentication credentials
+- OAuth tokens or session tokens
+- Private user data
+- Exploitable vulnerability details
+- Proof-of-concept code that could enable exploitation
+- Sensitive logs or configuration files
 
----
+If private reporting is unavailable, open a minimal GitHub Issue without including secrets or sensitive exploit details and request a private follow-up.
 
-## 🕵️ Our Response Process
-We treat every security report with the urgency it deserves:
+### Please include
 
-1.  **Triage:** We will acknowledge your report within **24-48 hours**.
-2.  **Investigation:** Our team will perform a deep-dive investigation and confirm the vulnerability.
-3.  **Resolution:** We will provide a timeline for a patch and keep you updated on our progress.
-4.  **Disclosure:** Once a fix is deployed, we will coordinate a public announcement (if appropriate) to help our community stay safe.
+- A clear description of the vulnerability.
+- The affected component or feature.
+- Potential security impact.
+- Steps to reproduce, where safe to provide (redact secrets).
+- Relevant version/commit information.
+- Screenshots or a sanitized proof of concept, if appropriate.
+
+Please redact credentials, tokens, personal information, private source code, and other sensitive material before submitting a report.
+
+### Response Process
+
+1. **Triage:** We will acknowledge your report and, where possible, confirm receipt within 24-48 hours.
+2. **Investigation:** We will reproduce and investigate the reported issue.
+3. **Resolution:** We will develop and test an appropriate fix.
+4. **Disclosure:** After a fix is available, we may coordinate responsible disclosure and a public advisory where appropriate.
 
 ---
 
