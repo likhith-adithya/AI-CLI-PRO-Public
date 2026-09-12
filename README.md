@@ -19,6 +19,18 @@
   </p>
 
   <p>
+    <a href="https://open-vsx.org/extension/likhith-adithya/ai-cli-pro">
+      <img src="./download_badge.svg" width="230" alt="AI CLI PRO downloads badge">
+    </a>
+  </p>
+
+  <p>
+    <a href="https://open-vsx.org/extension/likhith-adithya/ai-cli-pro">
+      <img src="./downloads_graph.svg" width="900" alt="Global adoption trend">
+    </a>
+  </p>
+
+  <p>
     <a href="#quick-start"><strong>Quick Start</strong></a>
     &nbsp;·&nbsp;
     <a href="SECURITY.md">Security</a>

@@ -1,0 +1,25 @@
+<svg width="240" height="76" viewBox="0 0 240 76" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI CLI PRO downloads badge">
+    <defs>
+        <linearGradient id="badgeBg" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#0b1020"/>
+            <stop offset="100%" stop-color="#111827"/>
+        </linearGradient>
+        <linearGradient id="badgeLine" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#7dd3fc"/>
+            <stop offset="50%" stop-color="#818cf8"/>
+            <stop offset="100%" stop-color="#34d399"/>
+        </linearGradient>
+        <filter id="badgeShadow" x="-10%" y="-10%" width="120%" height="140%">
+            <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.22"/>
+        </filter>
+    </defs>
+
+    <g filter="url(#badgeShadow)">
+        <rect x="1" y="1" width="238" height="74" rx="18" fill="url(#badgeBg)" stroke="#dbeafe" stroke-opacity="0.12"/>
+        <rect x="14" y="12" width="212" height="52" rx="13" fill="#0f172a" fill-opacity="0.72"/>
+        <text x="28" y="28" font-family="SF Pro Display, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.8" fill="#7dd3fc">GLOBAL DOWNLOADS</text>
+        <text x="28" y="49" font-family="SF Pro Display, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800" fill="#f8fafc">6324</text>
+        <rect x="164" y="19" width="48" height="21" rx="10.5" fill="url(#badgeLine)"/>
+        <text x="188" y="34" text-anchor="middle" font-family="SF Pro Display, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#06111d">LIVE</text>
+    </g>
+    </svg>
