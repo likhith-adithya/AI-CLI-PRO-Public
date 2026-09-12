@@ -4,7 +4,7 @@
 
   <p>
     <a href="https://marketplace.visualstudio.com/items?itemName=likhith-adithya.ai-cli-pro">
-      <img src="https://img.shields.io/badge/Version-0.0.87-6A11CB?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Version">
+      <img src="https://img.shields.io/badge/Version-0.1.0-6A11CB?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Version">
     </a>
     <img src="https://img.shields.io/badge/Status-Tested-2ECC71?style=for-the-badge" alt="Status">
     <img src="https://img.shields.io/badge/Platform-macOS%20|%20Win%20|%20Linux-2575FC?style=for-the-badge" alt="Platforms">
@@ -97,25 +97,25 @@ Want to flex your workflows? Open the sidebar, pick a CLI, and press launch. Sim
 - Ollama (local runtimes)
 - Hugging Face CLI
 
-Full register: `docs/providers/THIRD-PARTY-CLIS.md`.
+Full register: [docs/providers/THIRD-PARTY-CLIS.md](docs/providers/THIRD-PARTY-CLIS.md).
 
 ---
 
 ## Security & Privacy
 
-See `SECURITY.md` and `docs/legal/PRIVACY.md` for disclosure, telemetry, and privacy details.
+See [SECURITY.md](SECURITY.md) and [docs/legal/PRIVACY.md](docs/legal/PRIVACY.md) for disclosure, telemetry, and privacy details.
 
 ---
 
 ## Contributing & Support
 
-Contributions welcome. See `CONTRIBUTING.md`. For support or to report issues, use the repository issue tracker or `SUPPORT.md`.
+Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). For support or to report issues, use the repository issue tracker or [SUPPORT.md](SUPPORT.md).
 
 ---
 
 ## License
 
-Apache‑2.0 — see `LICENSE`.
+Apache‑2.0 — see [LICENSE](LICENSE).
 
 ---
 
