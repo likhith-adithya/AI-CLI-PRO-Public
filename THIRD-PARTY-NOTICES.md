@@ -38,9 +38,9 @@ AI CLI PRO supports the following third-party CLI tools. These tools are **not b
 
 Important: AI CLI PRO may initiate or automate installation using official package managers or vendor-provided installers, but it does not bundle, redistribute, or repackage third-party CLIs unless explicitly authorized and documented. In other words, AI CLI PRO can invoke an official installer on the user's system, but it does not act as a redistributor of the third-party software.
 
-They are installed by the user through official distribution channels.
+AI CLI PRO may initiate installation on the user's behalf through official package managers or vendor-provided installation mechanisms. The resulting third-party software remains subject to the applicable provider license and terms.
 
-| CLI | Provider | Distribution | License |
+| CLI | Provider | Distribution | License / Terms |
 | --- | --- | --- | --- |
 | Antigravity CLI (`agy`) | Google | Official installer | See provider terms |
 | Gemini CLI (`gemini`) | Google | npm: `@google/gemini-cli` | See provider terms |
